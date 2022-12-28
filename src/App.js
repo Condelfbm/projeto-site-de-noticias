@@ -1,12 +1,11 @@
 import './Reset.css';
 import './app.css';
-import 'materialize-css/dist/css/materialize.min.css'
+import { Navbar } from './components/Navbar';
 
 function App() {
   return (
-    <div className="brown lighten-2">
-      <div className="Title">Folklöre</div>
-    </div>)
+    <Navbar/>
+    )
 }
 
 export default App;
