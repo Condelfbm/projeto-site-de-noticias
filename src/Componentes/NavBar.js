@@ -8,14 +8,14 @@ export function NavBar(){
     return (
         <>
         <div className='navBar'>
-                <div className='row align-items-center'>
-                    <div className='col s3 m4 l5' id='menu'>
+                <div className='row'>
+                    <div className='col s4 m4 l4' id='menu'>
                         <AiOutlineMenu className='menu-icon' />
                     </div>
-                    <div className='col s6 m6 l5' id='title'>
+                    <div className='col s4 m4 l4' id='title'>
                         Folclöre
                     </div>  
-                    <div className='col s1 m1 l1 align-items-center' id='notes'>
+                    <div className='col s2 m2 l2' id='notes'>
                         <AiOutlineBell className='notes-icon' />
                     </div>
                     <div className='col s1 m1 l1' id='search' name="search">

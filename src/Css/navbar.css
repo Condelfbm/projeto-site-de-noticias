@@ -8,10 +8,10 @@
     line-height: 1.71;
     vertical-align: middle;
     white-space: nowrap;
-    justify-content:center;
 }
 
 #title{
+    text-align: center !important;
    font-family: lexend;
    font-size: 78px;
 }
@@ -24,7 +24,6 @@
     font-size: 30px;
     transition: all 0.5s;
     cursor: pointer;
-    text-align: start;
 }
 
 #menu:hover{
@@ -36,7 +35,7 @@
     font-size: 30px;
     transition: all 0.5s;
     cursor: pointer;
-    text-align: end;
+    text-align: center;
 }
 
 #search:hover{
@@ -48,7 +47,7 @@
     font-size: 30px;
     transition: all 0.5s;
     cursor: pointer;
-    text-align: end;
+    text-align: start;
 }
 
 #profile:hover{
