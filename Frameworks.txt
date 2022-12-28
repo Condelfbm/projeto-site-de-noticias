@@ -1,0 +1,4 @@
+Backend: Node.js
+Conexão: Express.js
+Banco de dados: MySQL
+Frontend: React
