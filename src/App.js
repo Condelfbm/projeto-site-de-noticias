@@ -1,10 +1,10 @@
 import './Reset.css';
+import NavBar from './Componentes/NavBar';
 
 function App() {
   return (
-    
     <div className="App">
-      texto
+      <NavBar/>
     </div>
   );
 }
