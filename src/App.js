@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="brown lighten-2">
       <div className="Title">Folklöre</div>
-    </div>
-  );
+    </div>)
 }
 
 export default App;
