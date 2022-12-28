@@ -1,10 +1,10 @@
 import './Reset.css';
-import './app.css';
-import { Navbar } from './components/Navbar';
+import './Css/app.css';
+import { NavBar } from './Componentes/NavBar.js';
 
 function App() {
   return (
-    <Navbar/>
+    <NavBar/>
     )
 }
 

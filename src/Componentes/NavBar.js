@@ -1,9 +1,10 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css'
 import { AiOutlineMenu, AiOutlineSearch, AiOutlineUser, AiOutlineBell } from 'react-icons/ai'
+import '../Css/navbar.css'
 
-export function Navbar(){
+
+export function NavBar(){
     return (
         <>
         
