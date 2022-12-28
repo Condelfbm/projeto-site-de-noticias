@@ -1,10 +1,17 @@
-.nav{
-    height: 120px !important;
+.navBar{
     border-bottom: 5px solid #5d4037;
 }
 
-.center-align{
-   padding-top: 15px;
+.row{
+    align-items: center;
+    display: flex;
+    line-height: 1.71;
+    vertical-align: middle;
+    white-space: nowrap;
+    justify-content:center;
+}
+
+#title{
    font-family: lexend;
    font-size: 78px;
 }
@@ -13,63 +20,50 @@
     color: black;
 }
 
-.a:hover{
+#menu{
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: start;
+}
+
+#menu:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5))
 }
 
-.menu{
-    position: absolute;
-    top: 40px;
-    left: 5%;
+#search{
     font-size: 30px;
     transition: all 0.5s;
     cursor: pointer;
+    text-align: end;
 }
 
-.menu:hover{
+#search:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5))
 }
 
-.search{
-    position: absolute;
-    top: 40px;
-    left: 87%;
+#profile{
     font-size: 30px;
     transition: all 0.5s;
     cursor: pointer;
+    text-align: end;
 }
 
-.search:hover{
+#profile:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5))
 }
 
-.profile{
-    position: absolute;
-    top: 40px;
-    left: 93%;
+#notes{
     font-size: 30px;
     transition: all 0.5s;
     cursor: pointer;
+    text-align: end;
 }
 
-.profile:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5))
-}
-
-.notes{
-    position: absolute;
-    top: 40px;
-    left: 90%;
-    font-size: 30px;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-.notes:hover{
+#notes:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5))
 }

@@ -7,15 +7,26 @@ import '../Css/navbar.css'
 export function NavBar(){
     return (
         <>
+        <div className='navBar'>
+                <div className='row align-items-center'>
+                    <div className='col s3 m4 l5' id='menu'>
+                        <AiOutlineMenu className='menu-icon' />
+                    </div>
+                    <div className='col s6 m6 l5' id='title'>
+                        Folclöre
+                    </div>  
+                    <div className='col s1 m1 l1 align-items-center' id='notes'>
+                        <AiOutlineBell className='notes-icon' />
+                    </div>
+                    <div className='col s1 m1 l1' id='search' name="search">
+                        <AiOutlineSearch className='search-icon' />
+                    </div>
+                    <div className='col s1 m1 l1' id='profile'>
+                        <AiOutlineUser className='profile-icon' />
+                    </div>
+                </div>
+        </div>
         
-        <div className='nav'>
-            <div className='search'><AiOutlineSearch className='search-icon' /></div>
-            <div className='profile'><AiOutlineUser className='profile-icon' /></div>
-            <div className='notes'><AiOutlineBell className='notes-icon' /></div>
-            <div className='menu'><AiOutlineMenu className='menu-icon' /></div>
-            <div className='center-align'><a href='/' className='a'>Folclöre</a></div>
-            
-        </div> 
         
         </>
     )
