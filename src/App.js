@@ -1,10 +1,10 @@
 import './Reset.css';
 
-
 function App() {
   return (
+    
     <div className="App">
-      sapato
+      texto
     </div>
   );
 }
